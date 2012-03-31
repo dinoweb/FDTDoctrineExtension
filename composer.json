@@ -1,0 +1,22 @@
+{
+    "name": "FDT/doctrine-extensions",
+    "type": "library",
+    "description": "Doctrine2 behavioral extensions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorenzo Caldara",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/common": ">=2.1"
+    },
+    "suggest": {
+        "doctrine/orm": ">=2.1",
+        "doctrine/mongodb-odm": "*"
+    },
+    "autoload": {
+        "psr-0": { "FDT": "lib/" }
+    }
+}
