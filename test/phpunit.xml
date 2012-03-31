@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php">
+	<testsuites>
+        <testsuite name="Tree Extension">
+            <directory suffix=".php">./FDT/doctrineExtensions/Nestedset/</directory>
+        </testsuite>
+        <testsuite name="Timestampable Extension">
+            <directory suffix=".php">./FDT/doctrineExtensions/Timestampable/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
