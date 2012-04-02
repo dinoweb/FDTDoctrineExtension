@@ -12,7 +12,7 @@ class TreeManager
 	private $documentManager;
 	private $nodes = array ();
 
-	public function __construct(DocumentManager $documentManager)
+	public function __construct(ManagerRegistry $documentManager)
 	{
 
 		$this->documentManager = $documentManager;
