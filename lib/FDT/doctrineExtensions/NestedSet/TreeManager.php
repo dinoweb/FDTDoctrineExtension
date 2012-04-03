@@ -3,7 +3,7 @@
 namespace FDT\doctrineExtensions\NestedSet;
 
 use  FDT\doctrineExtensions\NestedSet\Documents\BaseNode;
-use Doctrine\Common\Persistence\ObjectManager;
+use  Doctrine\ODM\MongoDB\DocumentManager;
 
 
 class TreeManager
@@ -12,7 +12,7 @@ class TreeManager
 	private $documentManager;
 	private $nodes = array ();
 
-	public function __construct(ObjectManager $documentManager)
+	public function __construct(DocumentManager $documentManager)
 	{
 
 		$this->documentManager = $documentManager;
@@ -81,7 +81,7 @@ class TreeManager
 	}
 
 
-	public function getTreeAsArray (BaseNode $document, $includeRoot = TRUE, $level = NULL)
+	public function getTreeAsArray (BaseNode $document, $includeRoot = TRUE, $level = 'ALL')
 	{
 		$arrayTree = array ();
 		$collection = NULL;

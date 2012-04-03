@@ -9,22 +9,26 @@ use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 
 
 interface BaseNode
-{    
+{
     public function getLevel();
-	            
+
     public function getId();
-    
+
     public function addAncestor($ancestor);
 
     public function getAncestors();
-    
+
+    public function removeAncestor ($ancestor);
+
+    public function clearAncestors ();
+
     public function setParent($ancestor);
-    
+
     public function getParent();
-    
+
     public function setLevel();
 
     public function getStringForPath();
 
-       
+
 }
