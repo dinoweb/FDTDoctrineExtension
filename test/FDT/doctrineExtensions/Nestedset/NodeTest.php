@@ -93,9 +93,24 @@ class NestedsetTest extends \PHPUnit_Framework_TestCase
         $this->documentManager->persist($categoria3);
         $this->documentManager->flush ();
 
+        $this->assertEquals (1, $categoria3->getLevel());
+
         $descendants = $nodeRoot->getDescendants ();
 
         $this->assertEquals (2, $descendants->count());
+
+        $categoria4 = new Categoria ();
+        $categoria4->setName ('Sgabelli belli');
+        $categoria4->setEbayId (500);
+        $categoria4->getEbayOfferedEnable (1);
+
+        $nodeCategoria3 = $this->getTreeManager ()->getNode ($categoria3);
+        $nodeCategoria3->addChild ($categoria4);
+
+        $this->documentManager->persist($categoria4);
+        $this->documentManager->flush ();
+
+        $this->assertEquals (2, $categoria4->getLevel());
 
 
     }
