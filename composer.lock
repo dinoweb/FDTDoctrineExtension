@@ -1,29 +1,13 @@
 {
-    "hash": "4dd420c9428b94da22aa73ee2f2b9e18",
+    "hash": "18a1bae7e4e17ba2d0feaa8cf86aeb93",
     "packages": [
         {
             "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "source-reference": "b3afbb80506d909743475c5b0904285ab0c07941",
-            "commit-date": "1341670930"
+            "version": "2.2.2"
         },
         {
             "package": "doctrine/dbal",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/dbal",
-            "version": "dev-master",
-            "source-reference": "00ac50c0e721b1dcbcc4924938ab648e28feb4cf",
-            "commit-date": "1341891672"
+            "version": "2.2.2"
         },
         {
             "package": "doctrine/doctrine-bundle",
@@ -51,15 +35,7 @@
         },
         {
             "package": "doctrine/orm",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/orm",
-            "version": "dev-master",
-            "source-reference": "113c6f51c2ef97a9f0992ecff7de278f1ba39877",
-            "commit-date": "1341846991"
+            "version": "2.2.0"
         },
         {
             "package": "symfony/symfony",
@@ -70,8 +46,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "f3547d4ff10af09567fc652eebec1bdaa42a668f",
-            "commit-date": "1341992854"
+            "source-reference": "09d71ca9274e7b82a54566360684842885f61912",
+            "commit-date": "1341995849"
         },
         {
             "package": "twig/twig",
@@ -84,12 +60,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "symfony/symfony": 20,
-        "doctrine/common": 20,
-        "doctrine/dbal": 20,
-        "doctrine/orm": 20,
-        "doctrine/mongodb-odm": 20,
-        "doctrine/mongodb": 20,
         "doctrine/doctrine-bundle": 20,
         "doctrine/mongodb-odm-bundle": 20
     }
