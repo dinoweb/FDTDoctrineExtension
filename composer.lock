@@ -1,41 +1,59 @@
 {
-    "hash": "18a1bae7e4e17ba2d0feaa8cf86aeb93",
+    "hash": "4bfa52fa9949fe7c17a8da4172521376",
     "packages": [
         {
             "package": "doctrine/common",
-            "version": "2.2.2"
+            "version": "2.3.x-dev",
+            "source-reference": "605b1b8b5a7bc8daf9111fb35483e5708e30de35",
+            "commit-date": "1346249247"
         },
         {
             "package": "doctrine/dbal",
-            "version": "2.2.2"
+            "version": "2.3.x-dev",
+            "source-reference": "adb28e4e1f959d515971b8e8b7f05a01913a7b91",
+            "commit-date": "1346249329"
         },
         {
             "package": "doctrine/doctrine-bundle",
             "version": "dev-master",
-            "source-reference": "c9ea46d1f0c48bb88bb87b44214fe44e03c0c692",
-            "commit-date": "1341405737"
+            "source-reference": "3600872919186e1a40e8fd556e65f6dca6337cc9",
+            "commit-date": "1346617185"
         },
         {
             "package": "doctrine/mongodb",
             "version": "dev-master",
-            "source-reference": "bf542f0ef6df724a390d888494b864f772454474",
-            "commit-date": "1341251039"
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "doctrine/mongodb",
+            "version": "dev-master",
+            "source-reference": "fdf44d850d7482b2cea7a0793d46999641c68e4f",
+            "commit-date": "1344539108"
         },
         {
             "package": "doctrine/mongodb-odm",
             "version": "dev-master",
-            "source-reference": "c3ec81946e0267f8453ab48cc399bf94184e0fcd",
-            "commit-date": "1341976591"
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "doctrine/mongodb-odm",
+            "version": "dev-master",
+            "source-reference": "43f678b345a46d8399d86305a3d6947b3d19cfca",
+            "commit-date": "1345760269"
         },
         {
             "package": "doctrine/mongodb-odm-bundle",
             "version": "dev-master",
-            "source-reference": "22fbe16eb93336a2eba1858b55b498dd5869de3d",
-            "commit-date": "1341994025"
+            "source-reference": "a1f26b42ea21e5eb79776c8903f698a43ae3bc38",
+            "commit-date": "1346423059"
         },
         {
             "package": "doctrine/orm",
-            "version": "2.2.0"
+            "version": "2.3.x-dev",
+            "source-reference": "bbf527a27356414bfa9bf520f018c5cb7af67c77",
+            "commit-date": "1346250986"
         },
         {
             "package": "symfony/symfony",
@@ -46,12 +64,12 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "09d71ca9274e7b82a54566360684842885f61912",
-            "commit-date": "1341995849"
+            "source-reference": "1dd153205b1db5b9ddcb4bfd4825ce6b8c4f41e7",
+            "commit-date": "1346770195"
         },
         {
             "package": "twig/twig",
-            "version": "v1.8.3"
+            "version": "v1.9.2"
         }
     ],
     "packages-dev": null,
@@ -60,7 +78,13 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "symfony/symfony": 20,
+        "doctrine/orm": 20,
         "doctrine/doctrine-bundle": 20,
-        "doctrine/mongodb-odm-bundle": 20
+        "doctrine/mongodb-odm-bundle": 20,
+        "doctrine/dbal": 20,
+        "doctrine/common": 20,
+        "doctrine/mongodb-odm": 20,
+        "doctrine/mongodb": 20
     }
 }
