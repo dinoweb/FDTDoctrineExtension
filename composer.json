@@ -17,7 +17,8 @@
         "doctrine/dbal": "2.3.x-dev",
         "doctrine/common": "2.3.x-dev",
         "doctrine/mongodb-odm": "dev-master",
-        "doctrine/mongodb": "dev-master"
+        "doctrine/mongodb": "dev-master",
+        "symfony/console": ">=2.0"
     },
     "suggest": {
         "doctrine/orm": ">=2.1",
